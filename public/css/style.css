@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    /*display: none;*/
+}
+
+
+/*a {font-size: 80px;color:blue;}*/
+.nameAndFeature {
+    display: inline-block;
+    /*width: 150px;*/
+    padding-right: 30px;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.feature{
+    font-size: 13px;
+    /*font-style: italic;*/
+}
+
+#head {
+    top: 5%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+
+#doGroup {
+    top: 50%;
+}
+
+#centerButton {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#drop {
+    border: 2px dashed #bbb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    font: 20pt bold, "Vollkorn";
+    color: #bbb
+}
